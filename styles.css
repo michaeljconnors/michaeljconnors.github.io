@@ -1,8 +1,61 @@
 body {
-	background:blue
+	max-width: 700px;
+	background: #F0FFFF;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-img {
+#read img {
 	width:270px;
 	height:450px;
+	display: block;
+	margin: auto;
 }
+
+#books table {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("Screen Shot 2017-02-10 at 4.16.35 PM.png");
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+}
+
+.wake{
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+	font-family: arial;
+	text-align: center
+}
+
+li {
+	text-align: left;
+}
+
+.quote{
+	font-style: italic;
+}
+
+.response{
+	text-align: left;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
+@media screen and (max-width: 600px) {
+	  body {
+	    text-align: center;
+	    margin-left: 7px;
+	    margin-right: 7px;
+	}
